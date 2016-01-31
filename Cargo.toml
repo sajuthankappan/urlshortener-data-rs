@@ -1,0 +1,13 @@
+[package]
+name = "urlshortener_data"
+version = "0.1.0"
+authors = ["Saju Thankappan <sajuthankappan@gmail.com>"]
+description = "Urlshortener data"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sajuthankappan/urlshortener-data-rs"
+
+[dependencies]
+bson = "*"
+mongodb = "*"
+urlshortener_core = { git = "https://github.com/sajuthankappan/urlshortener-core-rs"}
+urlshortener_codec = { git = "https://github.com/sajuthankappan/urlshortener-codec-rs"}
